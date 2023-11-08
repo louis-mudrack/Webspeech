@@ -1,4 +1,4 @@
-# Webspeech Class 🎙️
+# Webspeech Integration 🎙️
 
 Welcome to the Webspeech class! This is a fun and interactive JavaScript class that brings speech recognition to your web application. It's like having your own personal assistant right in your browser! 🎉
 
@@ -10,8 +10,11 @@ Welcome to the Webspeech class! This is a fun and interactive JavaScript class t
 
 ## Usage 🛠️
 
+Implement the JS file into your project and link it in your HTML file.
+Make sure it loads before your site.js or main.js file.
+Call it inside your main JS file.
+
 ```javascript:
-// Just create a new instance of the class and you're good to go!
 new Webspeech();
 ```
 
