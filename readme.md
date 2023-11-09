@@ -29,14 +29,6 @@ This is where the magic starts! It sets up the speech recognition and event hand
 
 Got a result from the speech recognition? This method takes care of it! 📝
 
-### showErrorNotification()
-
-Oops, an error occurred? No worries, this method will show a notification. 🚨
-
-### hideErrorNotification()
-
-Done with the error? This method hides the notification. 🙈
-
 ### stopSpeechRecognition()
 
 This method stops the speech recognition when you're done talking. 🛑
