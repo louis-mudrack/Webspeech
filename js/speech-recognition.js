@@ -24,13 +24,20 @@
 
 
 class Webspeech {
-    constructor(selectors) {
+    constructor(settings = {}) {
+        this.defaultSettings = {
+            startTalking: '',
+            searchInput: '',
+            submitButton: '',
+            enableClicking: false,
+        };
+        this.settings = { ...this.defaultSettings, ...settings };
         this.SpeechRecognition =
             window.SpeechRecognition || window.webkitSpeechRecognition || null;
         this.recognition = null;
-        this.micButton = document.querySelector(selectors.startTalking);
-        this.searchButton = document.querySelector(selectors.submitInput);
-        this.searchInput = document.querySelector(selectors.input);
+        this.micButton = document.querySelector(this.settings.startTalking);
+        this.searchButton = document.querySelector(this.settings.submitButton);
+        this.searchInput = document.querySelector(this.settings.input);
         this.init();
     }
 
@@ -51,11 +58,11 @@ class Webspeech {
             };
         }
     }
-
+    
     handleResult() {
         this.recognition.onresult = (event) => {
             this.searchInput.value = event.results[0][0].transcript;
-            if (this.searchButton) {
+            if (this.settings.enableClicking) {
                 this.searchButton.click();
             }
         };
