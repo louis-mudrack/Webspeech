@@ -1,27 +1,45 @@
-# Webspeech Class 🎙️
+# Webspeech Integration 🎙️
 
 Welcome to the Webspeech class! This is a fun and interactive JavaScript class that brings speech recognition to your web application. It's like having your own personal assistant right in your browser! 🎉
 
 ## Features 🚀
 
 - Converts your speech into text using the SpeechRecognition API 🗣️
+- Built-in notifications & notification module.
 - Handles those pesky errors and shows notifications 🚨
 - Integrates easily with your HTML elements 🎈
 
 ## Usage 🛠️
 
-```javascript:
-// Just create a new instance of the class and you're good to go!
+1. Implement the JS file into your project and link it in your HTML file.
+2. Make sure it loads before your site.js or main.js file.
+3. Call it inside your main JS file.
+
+```javascript
 new Webspeech();
 ```
 
 ## Methods 📚
 
-- init(): This is where the magic starts! It sets up the speech recognition and event handlers. 🎩
-- handleResult(): Got a result from the speech recognition? This method takes care of it! 📝
-- showErrorNotification(): Oops, an error occurred? No worries, this method will show a notification. 🚨
-- hideErrorNotification(): Done with the error? This method hides the notification. 🙈
-- stopSpeechRecognition(): This method stops the speech recognition when you're done talking. 🛑
+### init()
+
+This is where the magic starts! It sets up the speech recognition and event handlers. 🎩
+
+### handleResult()
+
+Got a result from the speech recognition? This method takes care of it! 📝
+
+### showErrorNotification()
+
+Oops, an error occurred? No worries, this method will show a notification. 🚨
+
+### hideErrorNotification()
+
+Done with the error? This method hides the notification. 🙈
+
+### stopSpeechRecognition()
+
+This method stops the speech recognition when you're done talking. 🛑
 
 ## Contributing 🤝
 
@@ -33,4 +51,4 @@ Found a bug or have a suggestion? Please file an issue. We appreciate your feedb
 
 ## License 📄
 
-MIT
+This project is licensed under the MIT License.
