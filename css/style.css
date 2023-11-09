@@ -13,11 +13,11 @@
 /* Icomoon Font Styling */
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?iig9qv');
-    src: url('../fonts/icomoon.eot?iig9qv#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?iig9qv') format('truetype'),
-        url('../fonts/icomoon.woff?iig9qv') format('woff'),
-        url('../fonts/icomoon.svg?iig9qv#icomoon') format('svg');
+    src: url('/Webspeech/fonts/icomoon.eot?iig9qv');
+    src: url('/Webspeech/fonts/icomoon.eot?iig9qv#iefix') format('embedded-opentype'),
+        url('/Webspeech/fonts/icomoon.ttf?iig9qv') format('truetype'),
+        url('/Webspeech/fonts/icomoon.woff?iig9qv') format('woff'),
+        url('/Webspeech/fonts/icomoon.svg?iig9qv#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
