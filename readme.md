@@ -33,6 +33,10 @@ Got a result from the speech recognition? This method takes care of it! 📝
 
 This method stops the speech recognition when you're done talking. 🛑
 
+### showErrorNotification()
+
+Takes the errors and turns them into nicely looking notifications.
+
 ## Contributing 🤝
 
 Got an idea to make this even better? Pull requests are more than welcome! For big changes, please open an issue first to discuss your brilliant idea. 🧠
